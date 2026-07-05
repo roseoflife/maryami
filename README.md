@@ -10,22 +10,8 @@ hosted in [Github pages](https://pages.github.com/).
 
 ## View the live demo
 
-[Sustain Live Demo](https://jekyllt.github.io/sustain)
 
 
-## Screenshots
-
-**Home page**
-![home page](https://raw.githubusercontent.com/jekyllt/sustain/gh-pages/assets/images/screen1.png)
-
-**Blog page**
-![blog page](https://raw.githubusercontent.com/jekyllt/sustain/gh-pages/assets/images/screen2.png)
-
-**Post page**
-![post page](https://raw.githubusercontent.com/jekyllt/sustain/gh-pages/assets/images/screen3.png)
-
-**Projects page**
-![project page](https://raw.githubusercontent.com/jekyllt/sustain/gh-pages/assets/images/screen4.png)
 
 
 ### Deployment
