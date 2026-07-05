@@ -4,44 +4,53 @@ layout: home
 
 <section id="about">
   <div class="container">
-
     <div class="avatar">
-      <img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Profile image">
+      <img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="{{ site.author }}">
     </div>
 
-    <h2><strong>{{ site.author }}</strong></h2>
+    <h1>{{ site.author }}</h1>
     <h3>Principal Software Engineer</h3>
+    <h3>maryami at gmail dot com</h3>
 
-    <p>
-      I build large-scale distributed systems and developer platforms focused on reliability, performance, and simplicity.
-    </p>
+    <div class="social">
 
-    <p>
-      My work is centered on reducing system complexity while improving scalability and operational clarity.
-    </p>
+      <div class="about-link-row">
+        <div class="about-link-title">Code</div>
+        <div class="about-link-logo">
+          <a href="https://github.com/{{ site.github }}">
+            <img class="link-logo-img" src="{{ site.baseurl }}static/img/github.png" alt="GitHub">
+          </a>
+        </div>
+      </div>
 
-    <p>
-      I currently focus on backend architecture, event-driven systems, and platform engineering.
-    </p>
+      <div class="about-link-row">
+        <div class="about-link-title">Writing</div>
+        <div class="about-link-logo">
+          <a href="{{ site.medium }}">
+            <i class="fa fa-medium link-logo-icon"></i>
+          </a>
+        </div>
+      </div>
 
-    <hr />
+      <div class="about-link-row">
+        <div class="about-link-title">Work</div>
+        <div class="about-link-logo">
+          <a href="https://linkedin.com/in/{{ site.linkedin }}">
+            <img class="link-logo-img" src="{{ site.baseurl }}static/img/linkedin.png" alt="LinkedIn">
+          </a>
+        </div>
+      </div>
 
-    <h3>Work</h3>
-    <p>
-      <a href="{{ site.baseurl }}projects.html">Selected projects</a>
-    </p>
+      <div class="about-link-row">
+        <div class="about-link-title">Courses</div>
+        <div class="about-link-logo">
+          <a href="{{ site.baseurl }}courses.html">
+            <i class="fa fa-graduation-cap link-logo-icon"></i>
+          </a>
+        </div>
+      </div>
 
-    <h3>Writing</h3>
-    <p>
-      Technical notes on system design, scalability, and engineering trade-offs.
-    </p>
-
-    <h3>Contact</h3>
-    <p>
-      Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-    </p>
-
-    {% include social.html %}
+    </div>
 
   </div>
 </section>

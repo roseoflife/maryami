@@ -11,12 +11,12 @@ safe: true
 
 
 # site identity
-url: https://yourusername.github.io
-baseurl: /sustain
+url: https://maryami.com
+baseurl: ''
 title: Maryam Zakeryfar
 author: Maryam Zakeryfar
-description: Principal Software Engineer focused on distributed systems, backend systems, and platform engineering.
-avatar: profile.png
+description: Principal Software Engineer with a PhD in Computer Science and 20+ years of experience in finance tech, data tech, Spark, Databricks, Snowflake, SQL, LLMs, and data quality.
+avatar: profile.jpg
 email: maryami@gmail.com
 
 
