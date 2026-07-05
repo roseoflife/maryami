@@ -10,23 +10,29 @@ port: 3000
 safe: true
 
 
-# edit here to achieve your personal greatness
-url: http://username.github.io/
-baseurl: /sustain/
-title: Chris Turner
-author: Chris Turner
-description: Personal blog and resume
+# site identity
+url: https://yourusername.github.io
+baseurl: /sustain
+title: Maryam Zakeryfar
+author: Maryam Zakeryfar
+description: Principal Software Engineer focused on distributed systems, backend systems, and platform engineering.
 avatar: profile.png
-email: yourname@email.com
-github: jekyllt/sustain # username
-twitter: username
-linkedin: username
-stackoverflow: username   #e.g: users/2735833/proton1h1
-medium: username #e.g: NobelPeaceOslo
-#Comment out if you don't want disqus
-disqus: username
-google_analytics: UA-69391421-1
+email: maryami@gmail.com
 
 
-# needed for travis-ci build
+# professional links
+github: roseoflife
+linkedin: maryami
+
+# optional (only keep if you actually use them)
+stackoverflow: 
+medium: https://medium.com/@maryami
+
+# remove social noise (keep site clean)
+twitter: 
+disqus: 
+
+google_analytics: 
+
+# needed for builds
 exclude: [vendor]
